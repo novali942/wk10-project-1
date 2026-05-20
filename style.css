@@ -1,0 +1,284 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+    background-color: #5F7D8E;
+}
+
+html{
+  background-color: #5F7D8E;
+}
+
+body {
+  background-color: #F4EFEB;
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+}
+
+footer{
+  margin-top: auto;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: #D5D8D9;
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1224px;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.navbar{
+    min-height: 70px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding{
+    font-size: 2rem;
+}
+
+.nav-link{
+    transition: 0.7s ease;
+}
+
+.nav-link:hover{
+    color: #314759;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #F4EFEB;
+}
+
+@media(max-width:768px){
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active  .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+
+.main-title {
+  transform: translate(280px, -300px); 
+  font-size: 70px;
+  color: #314759
+}
+
+
+img {
+  transform: translate(300px, -200px);
+}
+
+
+.sub-title {
+  transform: translate(440px, 200px); 
+  font-size: 70px;
+  color: #314759
+}
+
+p{
+  text-align: center;
+  transform: translate(2px, 270px); 
+  font-size: 30px;
+  color: #314759
+}
+
+.third-title {
+  transform: translate(480px, 300px); 
+  font-size: 70px;
+  color: #314759
+}
+
+.fourth-title {
+  transform: translate(430px,220px); 
+  font-size: 70px;
+  color: #D5D8D9
+}
+
+
+#salmon_toast{
+  transform: translate(17px,300px)
+}
+
+.price_1{
+  transform: translate(20px,15px);
+}
+
+.price_2{
+  transform:translate(13px,20px)
+}
+
+#cod_dish{
+  transform: translate(800px,50px);
+
+}
+
+.price_3{
+  transform: translate(-20px,10px);
+}
+
+.price_4{
+  transform:translate(-3px,20px)
+}
+
+#tuna_toast{
+  transform: translate(20px,30px);
+}
+
+.price_5{
+  transform: translate(-20px, -30px)
+}
+
+.price_6{
+  transform: translate(-18px,-20px);
+}
+
+#fish_and_chips{
+  transform: translate(800px,-70px);
+}
+
+.price_7{
+  transform: translate(-20px,-120px);
+}
+
+.price_8{
+  transform: translate(-30px,-110px)
+}
+
+#tuna_soup{
+  transform: translate(30px,-50px);
+}
+
+.price_9{
+  transform: translate(200px,-150px);
+}
+
+.price_10{
+  transform: translate(200px,-140px);
+}
+
+#fish_tacos{
+  transform: translate(600px,60px)
+}
+
+.price_11{
+  transform: translate(-200px,-40px)
+}
+
+.price_12{
+  transform: translate(-200px,-30px);
+}
+
+#baked_fish{
+  transform: translate(40px,60px);
+}
+
+.price_13{
+  transform: translate(370px,-70px);
+}
+
+.price_14{
+  transform: translate(370px,-60px);
+}
+
+#fish_pasta{
+  transform: translate(580px,70px);
+}
+
+.price_15{
+  transform: translate(-300px,-90px);
+}
+
+.price_16{
+  transform: translate(-310px,-80px);
+}
+
+#fish_pie{
+  transform: translate(50px,70px)
+}
+
+.price_17{
+  transform: translate(200px,-70px);
+}
+
+.price_18{
+  transform: translate(200px,-60px);
+}
+
+#cheesecake{
+  transform: translate(380px,90px);
+}
+
+.price_19{
+  transform: translate(-400px,-70px);
+}
+
+.price_20{
+  transform: translate(-400px,-60px);
+}
+
+#taiyaki{
+  transform: translate(50px,100px);
+}
+
+.price_21{
+  transform: translate(200px,-60px);
+}
+
+.price_22{
+  transform: translate(200px,-50px);
+}
+
+.visit{
+  transform: translate(-10px,210px);
+  color: #D5D8D9
+}
+
+.location{
+  transform: translate(-10px,220px);
+  color: #D5D8D9
+}
+
+.number{
+  transform: translate(-10px,230px);
+  color: #D5D8D9
+}
